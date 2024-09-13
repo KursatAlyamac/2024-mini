@@ -24,3 +24,24 @@ PWM is a technique for simulating an analog output with digital means, where dig
 ## Exercise 3
 
 Our results for the response time measurement and a general description of our web app:
+
+We successfully implemented the game_exercise.py to play the game with a tactile switch and we uploaded the data to a Firebase Realtime Database.
+
+When we run the code on the Pico 2, the LED correctly blinks 3 times, the reaction times are correctly measured, the data is stored in a json object and pushed to Firebase. Below is the terminal output that showcases these results:
+
+![Thonny Screenshot](https://drive.google.com/file/d/1Wz2kCcBjGjJFfkKKJFJtQnIXmwyJPyMQ/view?usp=sharing)
+
+Below is an image showing the same data as stored in a data.json file in Firebase Realtime Database:
+
+![Firebase Screenshot](https://drive.google.com/file/d/1W2Ej5GVwiqCOaIZXP8-H5YFteTMW3oPV/view?usp=sharing)
+
+In order to run this code on your own Pico, make sure to fill in these variables:
+
+```python
+SSID = 'wifi-name'
+PASSWORD = 'wifi-password'
+
+FIREBASE_URL = '<firebase-url>/<table-name>.json'
+```
+
+Here is a video link to our demo: [Demo Video](https://drive.google.com/file/d/1ZNDTjlPA04u8pWXWoGdf77zs1w5ZYLES/view?usp=sharing)
