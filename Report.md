@@ -20,6 +20,7 @@ We successfully used Pulse Width Modulation to play the opening line of Mozart's
 
 PWM is a technique for simulating an analog output with digital means, where digital signals oscillate between LOW or HIGH states. The frequency of the square waves that are subsequently generated determine the pitch of the note coming from the speaker. Higher frequencies produce higher-pitched notes, whereas lower frequencies produce lower-pitched notes. In our code, the melody can then be constructed by specifying the corresponding note frequency in Hertz (None for rests) and the duration in which the note or rest is held for. 
 
+Here is a video link to our demo: [Demo Video](https://drive.google.com/file/d/1GuSjk3U4KDyfdptB1slUi-yrP42d8v2R/view?usp=sharing)
 
 ## Exercise 3
 
